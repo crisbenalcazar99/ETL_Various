@@ -14,6 +14,9 @@ El primer script del repositorio está diseñado para procesar datos de tickets 
    - Filtrado de datos: Se seleccionan únicamente los tickets que fueron cerrados durante el mes de mayo.
    - Cálculo de métricas: Se calcula el número de tickets cerrados por cada operador y el tiempo promedio de cierre de los tickets para cada operador.
    - Limpieza de datos: Utiliza pandas para limpiar y estructurar los datos según las necesidades del análisis.
+  
+La Tabla oroginal contiene las siguientes columnas con mas de 40 000 registros
+![Datos Originales](Graphs/Datos_Originales.png)
 
 3. **Carga de Datos:**
    - No aplica carga a otro sistema, pero prepara los datos transformados y calculados para su posterior análisis y visualización.
@@ -39,6 +42,11 @@ El primer script del repositorio está diseñado para procesar datos de tickets 
   - **matplotlib:** Para la generación de gráficos y visualización de los resultados del análisis.
 #### Resultados Obtenidos
 
+Porcentaje de Tickets respondidos por operador
+![Porcentaje de Tickets respondidos por operador](Graphs/Graph_report_image.png)
+
+Tiempo Promedio de Respuesta por Atenge
+![Tiempo Promedio de Respuesta por Atenge](Graphs/Tabla_report_image.png)
 
 #### Propósito y Resultados Esperados:
 
